@@ -1,0 +1,135 @@
+body{
+  overflow-x: none;
+
+  /* background:linear-gradient(90deg,#F24645  ,#4F00BC ); */
+}
+
+.list-unstyled li a{
+  color:white;
+}.list-unstyled li a:hover{
+  text-decoration: none;
+  color:white;
+  font-size: 1.05rem;
+}
+/* .layer1 {
+
+  height: 50vh;
+}
+.layer1 img{
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(33,33,33,.2);
+
+}
+.img2{
+    height: 30vh;
+} */
+
+.layer1 {
+  display: flex;
+  width: 97vw;
+  overflow: hidden;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 3%;
+}
+.content{
+  transition: box-shadow .3s;
+  display: inline-block;
+  margin:5%;
+  width: 70%;
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.design img{
+  float: left;
+  margin-right: 2%;
+  margin-top: 5%;
+  margin-left: 10%;
+  vertical-align: middle;
+}
+.design{
+  text-align: center;
+  width: 30%;
+  display: inline-block;
+  margin:2% 2% 5% 4%;
+  border-radius: 15px;
+box-shadow: 0 0 20px rgba(33,33,33,.2);
+}
+.design:hover{
+  box-shadow: 0 0 40px rgba(33,33,33,.2);
+  border:0px solid rgba(0,0,0,0.2);
+
+}
+.top{
+  position: absolute;
+  width: 20%;
+  top: 52%;
+  right: 2%;
+  box-shadow: 0 0 20px rgba(33,33,33,.2);
+  border:0px solid rgba(0,0,0,0.2);
+  border-radius: 25px;
+  padding: 3%;
+}
+.top:hover{
+  box-shadow: 0 0 40px rgba(33,33,33,.2);
+  border:0px solid rgba(0,0,0,0.2);
+}
+.top ul{
+  color: grey;
+  font-size: 100%;
+  list-style: none;
+}
+.top ul li{
+  transition: font 0.5s ease;
+
+}
+.top ul li:hover{
+  color: black;
+  font-size: 130%;
+}
+
+.sub{
+  width: 20%;
+  padding: 3%;
+  box-shadow: 0 0 20px rgba(33,33,33,.2);
+  border:0px solid rgba(0,0,0,0.2);
+  border-radius: 25px;
+  width: 20%;
+  position: absolute;
+  top: 90%;
+  right: 2%;
+  background-color: black;
+  color:white;
+}
+.popular{
+
+  width: 20%;
+  padding: 3%;
+  box-shadow: 0 0 20px rgba(33,33,33,.2);
+  border:0px solid rgba(0,0,0,0.2);
+  border-radius: 25px;
+  position: absolute;
+  width: 20%;
+  top: 125%;
+  right: 2%;
+}
+.one{
+  margin-top:5%;
+  margin-bottom: 5%;
+}
+
+
+.top-svg{
+background-image: url("../images/footer.png");
+background-size: cover;
+    background-repeat: no-repeat;
+width: 100%;
+}
+footer{
+
+  width: 100%;
+}
